@@ -406,7 +406,10 @@ local Tab6 = Window:Tab("Animations",false)
 
 Tab6:Label("Animations")
 
-Tab6:Buttom("Animations)", function(bool)
+Tab6:Buttom("Animations)"
+
+Tab6:Button("Zombie and old school"),function(bool)
+    Tab2:Buttom("Animations)", function(bool)
 local Animate = game.Players.LocalPlayer.Character.Animate
 Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3303162274"
 Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3303162549"
