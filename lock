@@ -402,11 +402,21 @@ RunService:BindToRenderStep("AimLock", 0, function()
    "Kid with shit exploit"
 
 
+local Tab6 = Window:Tab("Animations",false)
 
+Tab6:Label("Animations")
 
-
-
-
+Tab6:Buttom("Animations)", function(bool)
+local Animate = game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3303162274"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3303162549"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+wait(1)
+end)
 
 
 
