@@ -332,7 +332,7 @@ end)
 
 local Tab5 = Window:Tab("Credits",false)
 
-Tab5:Label("Kremmz#0001")
+Tab5:Label("kremmz#0001")
 
 local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/x0GU1rjk"))()
 Aiming.TeamCheck(false)
