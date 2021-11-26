@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
 --local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
 
-local Window = Library:Create("Kremmz's lock",".gg/dtZYDKHpBv")
+local Window = Library:Create("Kremmz's lock",".gg/MWwNs7utHT")
 
 local Tab1 = Window:Tab("Aiming",true)
 
@@ -401,21 +401,6 @@ RunService:BindToRenderStep("AimLock", 0, function()
    SONA_LOADED and "Sona" or
    "Kid with shit exploit"
 
-local Tab6 = Window:Tab("Animations",false)
-
-Tab6:Label("Animations")
-
-Tab6:Button("Zombie and werewolf i think",function(bool)
-local Animate = game.Players.LocalPlayer.Character.Animate
-Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3303162274"
-Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3303162549"
-Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
-Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
-Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
-Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
-Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
-wait(1)
-end)
 
 
 
