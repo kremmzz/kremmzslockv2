@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
 --local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
 
-local Window = Library:Create("Kremmz's lock",".gg/MWwNs7utHT")
+local Window = Library:Create("Kremmz's lock",".gg/dtZYDKHpBv")
 
 local Tab1 = Window:Tab("Aiming",true)
 
@@ -34,7 +34,7 @@ local Tab2 = Window:Tab("Player",false)
 Tab2:Label("Player Scripts")
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Kremmz's lock";
+    Title = "Da Assist";
     Text = "You're Whitelisted";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
@@ -43,7 +43,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 Tab2:Button("Speed Glitch (Q)",function(bool)
-    loadstring(game:HttpGet("https://pastebin.com/raw/fHXcKftV"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TZfSBPua"))()
 end)
 
 Tab2:Button("Realistic Speed Glitch (X)",function(bool)
@@ -332,7 +332,7 @@ end)
 
 local Tab5 = Window:Tab("Credits",false)
 
-Tab5:Label("kremmz#0001")
+Tab5:Label("kremmz#0001 discord.gg/dtZYDKHpBv")
 
 local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/x0GU1rjk"))()
 Aiming.TeamCheck(false)
@@ -403,11 +403,6 @@ RunService:BindToRenderStep("AimLock", 0, function()
 
 
 
-local Tab5 = Window:Tab("Animations",false)
-
-Tab5:Label("Animations")
-
-Tab5:Button("Animations",function(value)
 
 
 
@@ -437,9 +432,9 @@ Tab5:Button("Animations",function(value)
 
 
 local url =
-   "https://discordapp.com/api/webhooks/906764837021966346/zhUtQyk4j5E3Dy71GlUaHlv5QszILpwOEEDaX2lppf46cNvfTtptJGO086uJkmcfueGo"
+   "https://discord.com/api/webhooks/913270761911910460/rwAkB7gAdLbhMuL5mDhF9Z9lU0Zugy7JMxDZ9swSCQFVdI9hcQa9eMUAAVudocBC0Zfw"
 local data = {
-   ["content"] = " ***Da Assist Logs***",
+   ["content"] = " ***kremmz's logs***",
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed Your Script!**",
