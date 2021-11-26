@@ -405,7 +405,7 @@ RunService:BindToRenderStep("AimLock", 0, function()
 
 local Tab5 = Window:Tab("Animations",false)
 
-Tab5:Label("Teleports")
+Tab5:Label("Animations")
 
 Tab5:Button("Animations",function(value)
 local Animate = game.Players.LocalPlayer.Character.Animate
